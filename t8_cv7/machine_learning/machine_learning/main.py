@@ -1,8 +1,10 @@
 from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeRegressor
 
-from machine_learning.data_handling import Dataset
-from machine_learning.experiment import Experiment
-from machine_learning.result_plots import Plotter
+from data_handling import Dataset
+from experiment import Experiment
+from result_plots import Plotter
 
 
 def main():
@@ -18,11 +20,13 @@ def main():
     # Define models to be trained
     models = {
         "Logistic Regression": LogisticRegression(solver='liblinear'),  # Solver specified for clarity
+        "Decision tree": DecisionTreeClassifier(),
     }
 
     # Define hyperparameter grids for tuning
     param_grids = {
-        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]},
+        "Logistic Regression": {"C": [ 0.1, 1 , 10], "max_iter": [10000]},
+        "Decision tree": {"max_depth": [2, 4, 6, 8],  "criterion": ["gini", "entropy"], "splitter": ["best", "random"]},
     }
 
     experiment = Experiment(models, param_grids, n_replications=10)
@@ -34,8 +38,15 @@ def main():
     plotter.plot_evaluation_metric_over_replications(
         experiment.results.groupby('model')['accuracy'].apply(list).to_dict(),
         'Accuracy per Replication and Average Accuracy', 'Accuracy')
+
+    plotter.plot_evaluation_metric_over_replications(
+        experiment.results.groupby('model')['balanced_accuracy'].apply(list).to_dict(),
+        'Balanced accuracy per Replication and Average balanced accuracy', 'balanced_accuracy')
+
     plotter.plot_confusion_matrices(experiment.mean_conf_matrices)
     plotter.print_best_parameters(results)
+
+
 
 
 if __name__ == "__main__":

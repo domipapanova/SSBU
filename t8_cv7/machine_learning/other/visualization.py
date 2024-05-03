@@ -3,7 +3,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
-from machine_learning.data_handling import Dataset
+from data_handling import Dataset
 
 
 def visualize_feature_distributions(X_train, X_train_scaled, feature_names, scale_type='Standardization'):

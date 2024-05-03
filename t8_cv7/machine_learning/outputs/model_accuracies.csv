@@ -1,0 +1,20 @@
+2024-05-02 18:41:14,808, Logistic Regression, Replication: 0, Accuracy: 0.9790, F1: 0.9776, ROC AUC: 0.9971,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9794093075826822
+2024-05-02 18:41:15,231, Decision tree, Replication: 0, Accuracy: 0.9336, F1: 0.9329, ROC AUC: 0.9385,  Params: {'criterion': 'entropy', 'max_depth': 4, 'splitter': 'best'}, balanced_accuracy: 0.9347719590457062
+2024-05-02 18:41:15,336, Logistic Regression, Replication: 1, Accuracy: 0.9860, F1: 0.9856, ROC AUC: 0.9993,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9860030343072481
+2024-05-02 18:41:15,618, Decision tree, Replication: 1, Accuracy: 0.9441, F1: 0.9424, ROC AUC: 0.9565,  Params: {'criterion': 'entropy', 'max_depth': 8, 'splitter': 'random'}, balanced_accuracy: 0.9438845401174168
+2024-05-02 18:41:15,738, Logistic Regression, Replication: 2, Accuracy: 0.9650, F1: 0.9632, ROC AUC: 0.9914,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9646793709890756
+2024-05-02 18:41:16,073, Decision tree, Replication: 2, Accuracy: 0.9545, F1: 0.9498, ROC AUC: 0.9588,  Params: {'criterion': 'entropy', 'max_depth': 6, 'splitter': 'best'}, balanced_accuracy: 0.9559500817114841
+2024-05-02 18:41:16,228, Logistic Regression, Replication: 3, Accuracy: 0.9720, F1: 0.9708, ROC AUC: 0.9951,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9719786410620683
+2024-05-02 18:41:16,646, Decision tree, Replication: 3, Accuracy: 0.9545, F1: 0.9541, ROC AUC: 0.9651,  Params: {'criterion': 'gini', 'max_depth': 4, 'splitter': 'best'}, balanced_accuracy: 0.9548789435069699
+2024-05-02 18:41:16,763, Logistic Regression, Replication: 4, Accuracy: 0.9755, F1: 0.9749, ROC AUC: 0.9903,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9758617312965139
+2024-05-02 18:41:17,314, Decision tree, Replication: 4, Accuracy: 0.9476, F1: 0.9481, ROC AUC: 0.9488,  Params: {'criterion': 'entropy', 'max_depth': 8, 'splitter': 'random'}, balanced_accuracy: 0.948782638514672
+2024-05-02 18:41:17,475, Logistic Regression, Replication: 5, Accuracy: 0.9790, F1: 0.9774, ROC AUC: 0.9952,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9794372294372294
+2024-05-02 18:41:17,802, Decision tree, Replication: 5, Accuracy: 0.9336, F1: 0.9338, ROC AUC: 0.9336,  Params: {'criterion': 'gini', 'max_depth': 6, 'splitter': 'best'}, balanced_accuracy: 0.9335876369327074
+2024-05-02 18:41:17,937, Logistic Regression, Replication: 6, Accuracy: 0.9615, F1: 0.9622, ROC AUC: 0.9964,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9621034077555817
+2024-05-02 18:41:18,215, Decision tree, Replication: 6, Accuracy: 0.9615, F1: 0.9597, ROC AUC: 0.9646,  Params: {'criterion': 'gini', 'max_depth': 6, 'splitter': 'random'}, balanced_accuracy: 0.9611241676459068
+2024-05-02 18:41:18,331, Logistic Regression, Replication: 7, Accuracy: 0.9860, F1: 0.9861, ROC AUC: 0.9988,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9861090731230129
+2024-05-02 18:41:18,603, Decision tree, Replication: 7, Accuracy: 0.9336, F1: 0.9347, ROC AUC: 0.9360,  Params: {'criterion': 'gini', 'max_depth': 8, 'splitter': 'random'}, balanced_accuracy: 0.9335664335664335
+2024-05-02 18:41:18,724, Logistic Regression, Replication: 8, Accuracy: 0.9650, F1: 0.9655, ROC AUC: 0.9929,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9649843505477308
+2024-05-02 18:41:19,009, Decision tree, Replication: 8, Accuracy: 0.9371, F1: 0.9388, ROC AUC: 0.9465,  Params: {'criterion': 'entropy', 'max_depth': 6, 'splitter': 'random'}, balanced_accuracy: 0.9375398030666732
+2024-05-02 18:41:19,141, Logistic Regression, Replication: 9, Accuracy: 0.9825, F1: 0.9818, ROC AUC: 0.9959,  Params: {'C': 10, 'max_iter': 10000}, balanced_accuracy: 0.9822101502471492
+2024-05-02 18:41:19,450, Decision tree, Replication: 9, Accuracy: 0.9545, F1: 0.9517, ROC AUC: 0.9546,  Params: {'criterion': 'entropy', 'max_depth': 8, 'splitter': 'best'}, balanced_accuracy: 0.9545856245090338
